@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.box {
+    width: 50%;
+    margin-left: 25%;
+}
+.image {
+    border: solid 5px;
+    border-color: white;
+    width: 100%;
+}
+#main {
+    color: blueviolet;
+    font-family: Libre Baskerville; src: url(https://fonts.google.com/specimen/Libre+Baskerville);
+    text-align: center;
+}
+.text {
+    color: white;
+    font-family: Libre Baskerville; src: url(https://fonts.google.com/specimen/Libre+Baskerville);
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 14pt;
+}
