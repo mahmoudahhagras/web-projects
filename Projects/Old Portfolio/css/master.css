@@ -1,0 +1,192 @@
+body {
+  scroll-behavior: smooth;
+  color: #000;
+  background-color: #15c691;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Tajawal, sans-serif;
+}
+a {
+  color: #15c691;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.main {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.heading {
+  font-weight: 900;
+  padding-top: 160px;
+  padding-left: 60px;
+}
+#heading-text {
+  color: rgba(4, 3, 3);
+  font-size: 45px;
+  font-weight: 600;
+}
+.btn {
+  font-weight: 500;
+  margin: 5px;
+  color: #fff;
+  background-color: #000000;
+  border-width: 0 5px 5px 0;
+  border-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-top-left-radius: 0;
+}
+.btn:hover {
+  font-weight: 500;
+  margin: 5px;
+  color: #bababa;
+  background-color: #000000;
+  border-width: 0 5px 5px 0;
+  border-color: #fff;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+}
+.some-animation {
+  margin: 50px 0 50px 0; 
+  margin-left: 150px;
+}
+
+/* projects */
+
+#projects {
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  font-weight: 600;
+  font-size: 28px;
+}
+.project-heading {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  align-items: center;
+  
+}
+.projects-gallery, .certification-gallery {
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.proimage, .certificationimage {
+  border-radius: 15px;
+}
+.projectdiscription, .certificationdiscription {
+  text-align: center;
+  font-size: 19px;
+  color: #fff;
+  font-weight: 400;
+  padding: 0 50px 0 50px;
+}
+.project4gallery{
+  padding-bottom: 50px;
+}
+.used-skill{
+  font-weight: 600;
+}
+/* skills */
+
+#skills {
+  margin-bottom: 40px;
+}
+.card {
+  padding: 15px 0 15px 0;
+  color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-radius: 15px;
+}
+.skills-heading {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.card-title {
+  text-align: center;
+  font-weight: 800;
+}
+.card-text {
+  font-size: 17px;
+  font-weight: 500;
+  padding-top: 8px;
+}
+.programming-skills, .graphic-skills .other-skills {
+  margin: 10px 0 10px 0;
+  align-items: center;
+}
+.graphic-card {
+  margin-top: 80px;
+}
+.other-card {
+  margin-top: 30px;
+}
+.progress-bar {
+  background-color: #000000d4;
+}
+.programming-animation {
+  margin-left: 60px;
+}
+/* certifications */
+#certifications {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  font-weight: 600;
+  font-size: 28px;
+}
+.certifications-discription {
+  font-weight: 500;
+  font-size: 24px;
+}
+.certifications-gallery {
+  margin-top: 50px;
+}
+.certificationdiscription {
+  padding-top: 200px;
+}
+
+.cta-heading {
+  padding-top: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 40px;
+}
+#cta-link{
+  color: #ffffff;
+}
+#cta-link:hover{
+  color: #c4c4c4;
+}
+#cta-nav {
+  justify-content: space-around;
+  font-size: 30px;
+  color: #fff;
+}
+#nav-cta {
+  color: #fff;
+}
+.cta-navbar {
+  margin: 50px auto;
+}
+.footer{
+  color: #fff;
+  text-align: center;
+}
+.footer-link {
+  color: #ffffff;
+}
+
