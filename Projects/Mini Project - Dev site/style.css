@@ -1,0 +1,73 @@
+@media (max-width: 900px) {
+   .logo {
+    width: 60%;
+  }
+  .tile-image {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+    display: block;
+  }
+  .left, .right {
+    float: none;
+
+  }
+  p {
+    clear: both;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  h2 {
+    text-align: center;
+  }
+  .card {
+    grid-column: 1 / span 2;
+    justify-items: center;
+  }
+}
+/* end of @media */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.logo {
+  margin: 0px;
+  padding: 0%;
+}
+.main {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+.heading {
+  grid-column: 1 / span 2;
+}
+.left {
+  float: left;
+}
+.right{
+  float: left;
+}
+.tile-image {
+  margin: 0px 20px 0px 0px;
+  width: 300px;
+}
+.card {
+  padding: 20px;
+}
+h1 {
+  font-size: 5rem;
+}
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+/* By Mahmoud Hagras */
